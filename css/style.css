@@ -1,0 +1,59 @@
+body {
+  background: #f4f1ea !important;
+  color: #3b2a4a !important;
+  font-family: 'Pacifico', cursive !important;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive !important;
+}
+
+.title {
+  color: #7a3e9d !important;
+  font-family: 'Pacifico', cursive !important;
+}
+
+.name {
+  color: #7a3e9d !important;
+  font-size: 1.6rem;
+  font-family: 'Pacifico', cursive !important;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+}
+
+.photo {
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  border-radius: 20px;
+  border: 4px solid #7a3e9d;
+  background: url('../images/IMG_8538.heic') center / cover no-repeat;
+}
+
+.toggle-btn {
+  display: block;
+  margin: 20px auto;
+  width: 220px;
+  height: 50px;
+  background: #7a3e9d;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.pic-js {
+  display: none;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.pic-js.show {
+  display: block;
+}
